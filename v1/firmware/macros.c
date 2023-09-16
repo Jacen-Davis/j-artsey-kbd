@@ -263,49 +263,49 @@ unregister_code(KC_BSPC);
  break;
 case A_BASE_RTSE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LSHIFT));
+add_oneshot_mods(MOD_BIT(KC_LSFT));
 }
 else {
 }
  break;
 case A_NUM_RTSE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LSHIFT));
+add_oneshot_mods(MOD_BIT(KC_LSFT));
 }
 else {
 }
  break;
 case A_SYM_RTSE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LSHIFT));
+add_oneshot_mods(MOD_BIT(KC_LSFT));
 }
 else {
 }
  break;
 case A_BRAC_RTSE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LSHIFT));
+add_oneshot_mods(MOD_BIT(KC_LSFT));
 }
 else {
 }
  break;
 case A_NAV_RTSE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LSHIFT));
+add_oneshot_mods(MOD_BIT(KC_LSFT));
 }
 else {
 }
  break;
 case A_MOU_RTSE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LSHIFT));
+add_oneshot_mods(MOD_BIT(KC_LSFT));
 }
 else {
 }
  break;
 case A_CUSTOM_RTSE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LSHIFT));
+add_oneshot_mods(MOD_BIT(KC_LSFT));
 }
 else {
 }
@@ -424,49 +424,49 @@ unregister_code(KC_ESC);
  break;
 case A_BASE_SE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LCTRL));
+add_oneshot_mods(MOD_BIT(KC_LCTL));
 }
 else {
 }
  break;
 case A_NUM_SE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LCTRL));
+add_oneshot_mods(MOD_BIT(KC_LCTL));
 }
 else {
 }
  break;
 case A_SYM_SE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LCTRL));
+add_oneshot_mods(MOD_BIT(KC_LCTL));
 }
 else {
 }
  break;
 case A_BRAC_SE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LCTRL));
+add_oneshot_mods(MOD_BIT(KC_LCTL));
 }
 else {
 }
  break;
 case A_NAV_SE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LCTRL));
+add_oneshot_mods(MOD_BIT(KC_LCTL));
 }
 else {
 }
  break;
 case A_MOU_SE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LCTRL));
+add_oneshot_mods(MOD_BIT(KC_LCTL));
 }
 else {
 }
  break;
 case A_CUSTOM_SE:
 if(record->event.pressed) {
-add_oneshot_mods(MOD_BIT(KC_LCTRL));
+add_oneshot_mods(MOD_BIT(KC_LCTL));
 }
 else {
 }

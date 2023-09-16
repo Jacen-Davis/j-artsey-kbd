@@ -1,7 +1,7 @@
-//REPLACE THIS WITH YOUR KEYBOARD.h 
-#include "keyboard.h"
+// Copyright 2023 QMK
+// SPDX-License-Identifier: GPL-2.0-or-later
 
-//MAKE SURE THESE ARE INCLUDED
+#include QMK_KEYBOARD_H
 #include "artsey.h"
 #include "keymap_combo.h"
 #include "artsey.c"

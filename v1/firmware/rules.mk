@@ -1,6 +1,9 @@
 #
 #
 
+# Bootloader
+BOOTLOADER = rp2040
+
 #Features needed to configure keyboard to work
 COMBO_ENABLE = yes
 COMMAND_ENABLE = no
