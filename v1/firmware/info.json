@@ -1,0 +1,71 @@
+{
+    "manufacturer": "Jacen Davis",
+    "keyboard_name": "j_artsey",
+    "maintainer": "Jacen Davis",
+    "bootloader": "rp2040",
+    "matrix_pins": {
+        "direct": [
+            ["GP26","GP27","GP28","GP0"],
+            [ "GP1", "GP2", "GP4","GP3"]
+        ]
+    },
+    "indicators": {
+        "num_lock": "GP17",
+        "caps_lock": "GP16",
+        "scroll_lock": "GP25",
+        "on_state": 0
+    },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "processor": "RP2040",
+    "url": "",
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0C47",
+        "vid": "0x74C1"
+    },
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 2,
+                    "y": 0
+                },
+                {
+                    "x": 3,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 2,
+                    "y": 1
+                },
+                {
+                    "x": 3,
+                    "y": 1
+                }
+            ]
+        }
+    }
+}
