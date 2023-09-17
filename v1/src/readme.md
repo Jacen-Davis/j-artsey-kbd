@@ -1,12 +1,12 @@
 # j_artsey
 
-![j_artsey](imgur.com image replace me!)
+![j_artsey](/v1/j-artsey-v1-front.png)
 
 *A short description of the keyboard/project*
 
-* Keyboard Maintainer: [Jacen Davis](https://github.com/Jacen Davis)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [Jacen Davis](https://github.com/Jacen-Davis)
+* Hardware Supported: My own custom board designs, but any keyboard can be configured with an artseyio layout. My firmware has been configured for the Seeed XIAO RP2040, the smallest MCU board available (that I know of).
+* Hardware Availability: [Seeed XIAO RP2040](https://www.amazon.com/Microcontroller-Dual-Core-MicroPython-CircuitPython-Interfaces/dp/B09NNVNW7M), Taking gerber files to PCB maker (e.g. PCBWay) to make prototypes.
 
 Make example for this keyboard (after setting up your build environment):
 
@@ -20,11 +20,7 @@ See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_to
 
 ## Bootloader
 
-Enter the bootloader in 3 ways:
-
-* **Bootmagic reset**: Hold down the key at (0,0) in the matrix (usually the top left key or Escape) and plug in the keyboard
-* **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
-* **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
+For the XIAO RP2040, the easiest way to enter boot mode is to hold the BOOT button ("B"), then plug the board into the computer. There, the board will act as a USB mass storage and allow you to transfer the firmware files to it (the uf2 file).
 
 ## Followed guide:
 https://github.com/artseyio/artsey-qmk
