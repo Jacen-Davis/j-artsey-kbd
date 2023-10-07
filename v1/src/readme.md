@@ -2,7 +2,7 @@
 
 ![j_artsey](/v1/j-artsey-v1-front.png)
 
-A 4x2, column-staggered, custom mechanical keyboard with a 1U shifted bottom row running QMK-powered Artsey.io layout.
+A 4x2, column-staggered, custom mechanical keyboard with a 1U shifted bottom row running QMK-powered Artsey.io layout. 
 
 * Keyboard Maintainer: [Jacen Davis](https://github.com/Jacen-Davis)
 * Hardware Supported: My own custom board designs, but any keyboard can be configured with an artseyio layout. My firmware has been configured for the Seeed XIAO RP2040, the smallest MCU board available (that I know of).
@@ -40,4 +40,4 @@ Follow the guidance in the **Bootloader** section to place the MCU in bootloader
 
 Ensure you follow the instructions to QMK to set up your environment properly. You will need to make a new keyboard using the `qmk new-keyboard` command. Then copy over the files in that folder under `keyboards/<keyboard-name>/` from `v1/src/`. The <keyboard-name> is the name you give the keyboard. The default layout options do not matter when asked when invoking `qmk new-keyboard` for this build, as you will overwrite it with the source files.
 
-Then, follow the make and flash examples. It should compile. If not, then you will have to troubleshoot. 
+Then, follow the make and flash examples. It should compile. If not, then you will have to troubleshoot. Customize to your heart's content. 
