@@ -2,7 +2,7 @@
 
 ![j_artsey](/v1/j-artsey-v1-front.png)
 
-*A 4x2, column-staggered, custom mechanical keyboard with a 1U shifted bottom row running QMK-powered Artsey.io layout.
+*A 4x2, column-staggered, custom mechanical keyboard with a 1U shifted bottom row running QMK-powered Artsey.io layout.*
 
 * Keyboard Maintainer: [Jacen Davis](https://github.com/Jacen-Davis)
 * Hardware Supported: My own custom board designs, but any keyboard can be configured with an artseyio layout. My firmware has been configured for the Seeed XIAO RP2040, the smallest MCU board available (that I know of).
